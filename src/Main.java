@@ -2,7 +2,7 @@ public abstract class Main {
 
 
     public static void main(String[] args) throws MyArraySizeException, MyArrayDataException {
-        String[][] myArray = new String[][]{{"1", "2", "3", "4"},{"1", "2", "3", "4"},{"1", "2", "3", "4"},{"1", "2", "3", "4"}};
+        String[][] myArray = new String[][]{{"1", "о", "3", "4"},{"1", "2", "3", "4"},{"1", "2", "3", "4"},{"1", "2", "3", "4"}};
         int sum = 0;
         for(int i = 0; i < myArray.length; i++) {
             for (int j = 0; j < myArray[0].length; j++) {
